@@ -1,1 +1,1 @@
-# right_explorer_in_hindi.github.io
+# LAW_WIZARD_PROTOTYPE_MODEL.github.io

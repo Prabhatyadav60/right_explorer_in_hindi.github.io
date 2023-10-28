@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>दृश्य-श्रव्य</h1>
+<div>
+    <img src="img3.png" alt="">
+</div>
+<h2>इस छवि से संबंधित प्रश्न का उत्तर दें...</h2>
+ <form id="quiz-form">
+            <p>1.यह इनमें से किससे संबंधित है??</p>
+            <input type="radio" name="q1" value="a">a) शिक्षा<br>
+            <input type="radio" name="q1" value="b">b)स्वास्थ्य<br>
+            <input type="radio" name="q1" value="c">c) गरीबी<br>
+
+            <p>2.शिक्षा सबके लिए जरूरी??</p>
+            <input type="radio" name="q2" value="a">a)हाँ<br>
+            <input type="radio" name="q2" value="b">b)नहीं<br>
+            <input type="radio" name="q2" value="c">c)पता नहीं <br>
+
+            <p>3. इस छवि के माध्यम से कौन सा कानून प्रतिबिंबित होता है</p>
+            <input type="radio" name="q3" value="a">a)शिक्षा का अधिकार<br>
+            <input type="radio" name="q3" value="b">b) भोजन का अधिकार<br>
+            <input type="radio" name="q3" value="c">c) हमको क्या पता..<br>
+
+            <button type="button" id="submit-button">Submit</button>
+        </form>
+        <div id="results" class="hidden">
+            <h2>परिणाम</h2>
+            <p id="score">तुम्हारे अंक: <span id="correct-answers">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
